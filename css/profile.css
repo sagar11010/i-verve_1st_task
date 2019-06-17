@@ -1,0 +1,12 @@
+.top-banner{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 80%, rgba(252,176,69,1) 100%);
+}
+.profile_pic{
+    width: 250px;
+    height: 300px;
+    border-radius: 40%;
+    border: 5px solid white;
+}
+#img_update{
+    display: none;
+}

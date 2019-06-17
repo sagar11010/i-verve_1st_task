@@ -1,0 +1,19 @@
+
+.u_name{
+    font-size: 20px;
+    margin: 20px;
+}
+.post-head{
+    width: 100%;
+    height: auto;
+}
+.post_admin{
+    padding: 10px;
+}
+.post-content{
+    padding: 20px;
+    text-align: center;
+}
+.tag-pic{
+    border-radius: 40%;
+}

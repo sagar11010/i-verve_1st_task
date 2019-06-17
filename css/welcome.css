@@ -1,0 +1,55 @@
+.profile-area{
+    height: 650px;
+}
+.post-area{
+    height: 655px;
+    overflow: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+textarea{
+    border: 1px solid gray;
+    background: rgba(255, 255, 255, 0.63);
+    border-radius: 10px;
+}
+.tag-head{
+    padding:5px;
+    border: 1px solid gary;
+    border-radius: 5px;
+    font-size: 20px;
+    color: grey;
+}
+.tag-head:hover{
+    background-color: grey;
+    color: white;
+}
+.c_post{
+    position: relative;
+    margin-top: 20px;
+}
+.profile_pic{
+    margin-top: 30px;
+    width: 120px;
+    height:140px;
+    border-radius: 40%;
+    border: 3px solid white;
+}
+.u_name{
+    font-size: 20px;
+    margin: 20px;
+}
+.post-head{
+    width: 100%;
+    height: auto;
+}
+.post_admin{
+    padding: 10px;
+}
+.post-content{
+    padding: 20px;
+    text-align: center;
+}
+.tag-pic{
+    border-radius: 40%;
+}
