@@ -10,9 +10,9 @@ include_once "profile/profile_header.php";
 
 // fetch_user details
 $user = $_SESSION['user'];
-$select_user = "SELECT * FROM user WHERE username='$user'";
+$select_user = "SELECT * FROM user WHERE username='$user'";//get user data from user table
 $result_check_user = mysqli_query($con,$select_user);
-$get_profile = mysqli_fetch_array($result_check_user);
+$get_profile = mysqli_fetch_array($result_check_user);//get profile data in array
 
 ?>
 
